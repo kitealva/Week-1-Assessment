@@ -12,10 +12,8 @@ function stringHasTheWhiteSpaceOrNot(password){
        console.log("The string does not have whitespace");
  }
  
-if (password.toUpperCase() === password) {
-  console.log('Password has upperCase character.');
-} else {
-  console.log('Password does not have upperCase character.');
+ if(password[i] === password[i].toUpperCase() && isNaN(+password[i])){
+    upperCheck = true
 }
 if(password.length >= 10){
     console.log('Password has at least 10 char.')
@@ -30,7 +28,7 @@ else {
     console.log('Password meets number requirement.')
 }
 
-if(password === /[a-zA-Z]/){
+if(/[a-zA-Z]/.test(password)){
     console.log('Meets requirement.')
 } else {
     console.log('Does not meet Alphabetical requirement')

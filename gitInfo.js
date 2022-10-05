@@ -22,7 +22,7 @@ let gitDefinition = 'A control system made to handle projects at a great efficie
 //CODE HERE
 console.log(`=======================`)
 
-let gitHubDefinition = 'A website to store repositories of your code to easily access frome another system or to share/accept code'
+let gitHubDefinition = 'A website to store repositories of your code to easily access from another system or to share/accept code'
 
 //////////////////PROBLEM 3////////////////////
 /*
